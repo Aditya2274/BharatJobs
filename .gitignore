@@ -39,3 +39,26 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+
+# EAS
+.easignore
+
+# Logs
+*.log
+logs/
+
+# env files (all variants)
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
